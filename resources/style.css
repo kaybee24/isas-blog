@@ -7,7 +7,7 @@ body {
   }
   
 body .content {
-    width: 90%;
+    width: 85%;
     margin: 0 auto;
 }
 
@@ -45,6 +45,7 @@ a {
 
 .profile-pic {
     border-radius: 50%;
+    width: 15rem;
 }
 
 /* Highlight */
@@ -74,15 +75,18 @@ ul.highlight li {
 }
 
 @media (max-width: 768px) {
-    p {
-      font-size: 1rem;
-    }
     .body img {
         width: 26rem;
+    }
+    p {
+      font-size: 1rem;
     }
   }
 
   @media (max-width: 420px) {
+    body .content {
+        width: 90%;
+    }
     p {
       font-size: 0.8rem;
     }
