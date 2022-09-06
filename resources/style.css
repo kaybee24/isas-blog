@@ -46,3 +46,44 @@ a {
 .profile-pic {
     border-radius: 50%;
 }
+
+/* Highlight */
+  
+ul.highlight {
+	padding: 0.5rem;
+}
+  
+ul.highlight li {
+	display: inline-block;
+	background-color: rgb(211, 151, 118);
+	list-style: none;
+	width: 15rem;
+	padding: 1rem;
+    margin: 0.15rem;
+}
+  
+.highlight .category {
+	color: rgb(255, 255, 255);
+	font-weight: 200;
+	letter-spacing: 2px;
+	display: block;
+}
+
+#contact {
+    margin-top: 4.5rem;
+}
+
+@media (max-width: 768px) {
+    p {
+      font-size: 1rem;
+    }
+    .body img {
+        width: 26rem;
+    }
+  }
+
+  @media (max-width: 420px) {
+    p {
+      font-size: 0.8rem;
+    }
+  }
